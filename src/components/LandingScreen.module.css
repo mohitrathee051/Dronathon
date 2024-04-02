@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+.FullScreen{
+    background-color: #D5E4DF;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Kulim Park", sans-serif;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF ;
+    margin-top: 1.5vw;
+    padding-right:2vw ;
+    padding-left: 1vw;
+    height: 4rem;
+    width: 85%;
+    border-radius: 50px;
+}
+
+.Logo img{
+    width: 90px;
+    margin-left: 1rem;
+}
+
+.NavButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.NavButtons a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.NavButtons a:hover{
+    text-decoration: underline;
+}
+
+.JoinUsButton{
+    background-color: #D5E4DF;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 1vw 2vw;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.JoinUsButton:hover{
+    background-color: #8DAFA1;
+}
+
+.HeroSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+
+.textBtnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    margin-top: 4vw;
+    font-size: 25px;
+    gap: 3vw;
+
+}
+.GetStarted{
+    background-color: #8DAFA1;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 1.5vw 6vw;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 4vw;
+}
+
+.GetStarted:hover{
+    background-color: #6D8F81;
+}

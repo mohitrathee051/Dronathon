@@ -1,0 +1,26 @@
+.full{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-color: black;
+    background-image: url('../assets/Motivation.png'); /* Replace with your image path */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    overflow: hidden; /* Hide any content that goes beyond the bounds of the tracker element */
+}
+
+.quotesec{
+    display: flex  ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4rem;
+    color: white;
+    font-family: "Kulim Park", sans-serif;
+    padding-top: 5vw;
+    margin-top: 5vw;
+    border: 2px solid #2ACEFF;
+}

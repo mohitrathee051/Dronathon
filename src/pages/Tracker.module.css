@@ -1,0 +1,40 @@
+.tracker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-color: black;
+    background-image: url('../assets/trackerbg.png'); /* Replace with your image path */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    overflow: hidden; /* Hide any content that goes beyond the bounds of the tracker element */
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vw;
+}
+
+.count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+}
+
+
+
+.heading{
+    font-weight: 600;
+    font-size: 8rem;
+    margin-top: 0;
+    padding:0 ;
+}
