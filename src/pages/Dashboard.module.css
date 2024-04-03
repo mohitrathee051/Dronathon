@@ -1,0 +1,43 @@
+.fullscreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-color: black;
+    background-image: url('../assets/Dashboard.png'); /* Replace with your image path */
+    background-size: 100% 107vh; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    overflow: hidden;
+    color: white; /* Hide any content that goes beyond the bounds of the tracker element */
+
+}
+
+.fullscreen h1{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.fullscreen ul{
+    font-size: 3rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.fullscreen input {
+    padding: 2rem 4rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 3rem;
+    border: 3px solid #ccc;
+    border-radius: 40px;
+    background-color: transparent;
+    margin-right: 4vw;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
